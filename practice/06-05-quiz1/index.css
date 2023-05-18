@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;   
+}
+
+
+.box {
+    width: 200px;
+    background-color: #123ecf;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    transition: width 0.3s ease-in-out
+}
+
+.box:hover {
+    width: 300px;
+}
